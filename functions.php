@@ -1,9 +1,9 @@
 <?php
 	class myFunctions{
 		private $host = "localhost";
-		private $user = "root";
-		private $db = "msemakweli";
-		private $pass = "root";
+		private $user = "admin";
+		private $db = "emr_merge_db";
+		private $pass = "Qwerty!123";
 		private $conn;
 
 		/*** function to create database connection ***/

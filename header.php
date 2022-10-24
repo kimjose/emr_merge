@@ -250,7 +250,7 @@
             $servername = $_SERVER['SERVER_NAME'];
             $serverport = $_SERVER['SERVER_PORT'];
             if($servername =='localhost'){
-                echo '<base href="http://'.$servername.'/msemakweli/"/>';
+                echo '<base href="http://'.$servername.':81/emr_merge/"/>';
             }
             else{
                 echo '<base href="https://'.$servername.'" />';
